@@ -234,39 +234,14 @@ Movie-Recommendation-System/
 
 ## **Installation**
 
-### **1. Clone the Repository**
+### **Step 1: Clone the Repository**
+git clone <your-repository-url>
 
-git clone https://github.com/your-username/movie-recommendation-system.git
+### **Step 2: Install Dependencies**
+pip install -r requirements.txt
 
-### **2. Navigate to the Project Directory**
-
-cd movie-recommendation-system
-
-### **3. Install Required Libraries**
-
-pip install pandas numpy scikit-learn
-
-The project primarily requires:
-
-pandas
-
-numpy
-
-scikit-learn
-
-difflib is part of Python's standard library, so it does not need to be installed separately.
-
-## **How to Run**
-
-If the project is provided as a Jupyter Notebook:
-
+### **Step 3: Launch Jupyter Notebook**
 jupyter notebook
-
-Then open:
-
-movie_recommendation_system.ipynb
-
-Run the cells in sequence and enter the name of a movie when prompted.
 
 ## **Algorithms Used**
 
