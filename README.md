@@ -4,7 +4,7 @@ A **Movie Recommendation System** built using Python and Machine Learning techni
 
 The project uses **text-based features** from movie metadata and calculates the similarity between movies using **TF-IDF Vectorization** and **Cosine Similarity**.
 
-**Project Overview**
+## **Project Overview**
 
 The Movie Recommendation System takes a movie name as input from the user and finds movies that are most similar to the selected movie.
 
@@ -20,7 +20,7 @@ The system combines these features to create a textual representation of each mo
 
 Finally, the system displays the **Top 10 recommended movies**.
 
-**Features**
+## **Features**
 
 -   Takes a movie name as input from the user
 -   Uses difflib to find the closest matching movie name
@@ -30,7 +30,7 @@ Finally, the system displays the **Top 10 recommended movies**.
 -   Returns the **Top 10 most similar/recommended movies**
 -   Built using Python and popular Machine Learning libraries
 
-**Dataset**
+## **Dataset**
 
 The dataset contains multiple columns containing information about movies.
 
@@ -48,23 +48,13 @@ director
 
 These features provide useful information about the content, people involved, and characteristics of each movie.
 
-**Technologies & Libraries Used**
+## **Technologies & Libraries Used**
 
-**Technology / Library**
-
-**Purpose**
-
-Python
-
-Programming language
-
-Pandas
-
-Data manipulation and preprocessing
-
-NumPy
-
-Numerical operations
+|**Technology | Library**|
+|:---|---:|
+|Python|Programming language|
+|Pandas|Data manipulation and preprocessing|
+|NumPy|Numerical operations|
 
 difflib
 
@@ -82,7 +72,7 @@ Cosine Similarity
 
 Measuring similarity between movies
 
-**How the Recommendation System Works**
+## **How the Recommendation System Works**
 
 The system follows these main steps:
 
@@ -156,7 +146,7 @@ After finding the corresponding movie, the system retrieves its similarity score
 
 The **Top 10 most similar movies** are then displayed as recommendations.
 
-**Project Workflow**
+## **Project Workflow**
 
 Movie Dataset
 
@@ -206,13 +196,13 @@ Sort Movies by Similarity
 
 Top 10 Recommendations
 
-**Example**
+## **Example**
 
-**Input**
+### **Input**
 
 Enter your favourite movie name: Iron Man
 
-**Output**
+### **Output**
 
 Movies suggested for you:
 
@@ -238,7 +228,7 @@ Movies suggested for you:
 
 _The actual recommendations depend on the dataset and calculated similarity scores._
 
-**Project Structure**
+## **Project Structure**
 
 A possible project structure is:
 
@@ -254,17 +244,17 @@ Movie-Recommendation-System/
 
 └── requirements.txt
 
-**Installation**
+## **Installation**
 
-**1. Clone the Repository**
+### **1. Clone the Repository**
 
 git clone https://github.com/your-username/movie-recommendation-system.git
 
-**2. Navigate to the Project Directory**
+### **2. Navigate to the Project Directory**
 
 cd movie-recommendation-system
 
-**3. Install Required Libraries**
+### **3. Install Required Libraries**
 
 pip install pandas numpy scikit-learn
 
@@ -278,7 +268,7 @@ scikit-learn
 
 difflib is part of Python's standard library, so it does not need to be installed separately.
 
-**How to Run**
+## **How to Run**
 
 If the project is provided as a Jupyter Notebook:
 
@@ -290,7 +280,7 @@ movie_recommendation_system.ipynb
 
 Run the cells in sequence and enter the name of a movie when prompted.
 
-**Algorithms Used**
+## **Algorithms Used**
 
 **TF-IDF Vectorization**
 
@@ -310,13 +300,7 @@ The similarity score generally ranges from:
 
 The movies with the highest similarity scores are selected as recommendations.
 
-**difflib**
-
-Python's difflib module is used to find the closest movie name in the dataset based on the user's input.
-
-This makes the system more user-friendly when the entered movie name is not an exact match.
-
-**Objective**
+## **Objective**
 
 The main objective of this project is to build a simple and effective **content-based movie recommendation system** that recommends movies based on their textual characteristics.
 
@@ -329,7 +313,7 @@ The project demonstrates the practical application of:
 -   Recommendation Systems
 -   Python Programming
 
-**Future Improvements**
+## **Future Improvements**
 
 Some possible improvements include:
 
@@ -342,13 +326,13 @@ Some possible improvements include:
 -   Combine content-based and collaborative filtering into a hybrid recommendation system
 -   Allow users to select multiple favourite movies
 
-**Author**
+## **Author**
 
 **Rohanpreet Arora**
 
 If you found this project useful or interesting, feel free to ⭐ the repository.
 
-**License**
+## **License**
 
 This project is created for **educational and learning purposes**.Welcome to StackEdit!
 
