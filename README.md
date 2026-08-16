@@ -64,21 +64,21 @@ These features provide useful information about the content, people involved, an
 
 The system follows these main steps:
 
-**1. Load the Dataset**
+### **1. Load the Dataset**
 
 The movie dataset is loaded using **Pandas**.
 
-**2. Select Relevant Features**
+### **2. Select Relevant Features**
 
 Only the following features are considered for recommendation:
 
 features = ['genres', 'keywords', 'tagline', 'cast', 'director']
 
-**3. Handle Missing Values**
+### **3. Handle Missing Values**
 
 Missing values in the selected features are handled so that they do not cause problems during text processing.
 
-**4. Combine Textual Features**
+### **4. Combine Textual Features**
 
 The selected movie features are combined into a single text representation.
 
@@ -88,7 +88,7 @@ Genres + Keywords + Tagline + Cast + Director
 
 This combined information represents the characteristics of a movie.
 
-**5. Convert Text into Numerical Data**
+### **5. Convert Text into Numerical Data**
 
 Since machine learning algorithms cannot directly work with raw text, **TF-IDF Vectorization** is used.
 
@@ -100,7 +100,7 @@ feature_vectors = vectorizer.fit_transform(combined_features)
 
 TF-IDF converts the textual information into numerical vectors while giving importance to meaningful words.
 
-**6. Calculate Similarity**
+### **6. Calculate Similarity**
 
 The similarity between movies is calculated using **Cosine Similarity**.
 
@@ -112,7 +112,7 @@ The resulting similarity score represents how similar two movies are.
 
 A higher similarity score means the movies have more similar characteristics.
 
-**7. Take Movie Name as Input**
+### **7. Take Movie Name as Input**
 
 The user enters the name of a movie.
 
@@ -120,7 +120,7 @@ For example:
 
 Enter your favourite movie name: Avatar
 
-**8. Find the Closest Movie Match**
+### **8. Find the Closest Movie Match**
 
 The difflib library is used to find the closest matching movie name from the dataset.
 
@@ -128,7 +128,7 @@ This is useful when the user enters a movie name with a small spelling mistake o
 
 import difflib
 
-**9. Generate Recommendations**
+### **9. Generate Recommendations**
 
 After finding the corresponding movie, the system retrieves its similarity scores and sorts the movies according to their similarity.
 
@@ -138,49 +138,49 @@ The **Top 10 most similar movies** are then displayed as recommendations.
 
 Movie Dataset
 
-↓
+    ↓
 
 Select Movie Features
 
-↓
+    ↓
 
 genres + keywords + tagline
 
   +cast + director
 
-↓
+    ↓
 
 Combine Textual Features
 
-↓
+    ↓
 
 TF-IDF Vectorization
 
-↓
+    ↓
 
 Feature Vector Creation
 
-↓
+    ↓
 
 Cosine Similarity Matrix
 
-↓
+    ↓
 
 User Enters Movie Name
 
-↓
+    ↓
 
 difflib Finds Best Match
 
-↓
+    ↓
 
 Compare Similarity Scores
 
-↓
+    ↓
 
 Sort Movies by Similarity
 
-↓
+    ↓
 
 Top 10 Recommendations
 
