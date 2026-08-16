@@ -50,27 +50,15 @@ These features provide useful information about the content, people involved, an
 
 ## **Technologies & Libraries Used**
 
-|**Technology | Library**|
+|**Technology** | **Library**|
 |:---|---:|
 |Python|Programming language|
 |Pandas|Data manipulation and preprocessing|
 |NumPy|Numerical operations|
-
-difflib
-
-Finding the closest matching movie name
-
-Scikit-learn
-
-Machine learning utilities
-
-TfidfVectorizer
-
-Converting text into numerical vectors
-
-Cosine Similarity
-
-Measuring similarity between movies
+|difflib|Finding the closest matching movie name|
+|Scikit-learn|Machine learning utilities|
+|TfidfVectorizer|Converting text into numerical vectors|
+|Cosine Similarity|Measuring similarity between movies|
 
 ## **How the Recommendation System Works**
 
